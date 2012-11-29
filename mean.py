@@ -4,17 +4,16 @@ import sys
 
 #define the variables to store the sum
 sum = 0
+n = 0
 
 #check the files
-if len(sys, argv) == 1:
-    print "Error: no arguments given."
-    sys.exit()
 
 #get the values from the second to the end
-for num in sys.argv[1:]:
+for num in open(sys.argv[1]):
     sum +=float(num)
+    n += 1
 
 #zyq add again
 
-print sum/(len(sys.argv)-1)
+print sum/n
 
