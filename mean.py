@@ -14,5 +14,7 @@ if len(sys, argv) == 1:
 for num in sys.argv[1:]:
     sum +=float(num)
 
+#zyq add again
+
 print sum/(len(sys.argv)-1)
 
