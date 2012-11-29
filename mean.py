@@ -10,6 +10,7 @@ if len(sys, argv) == 1:
     print "Error: no arguments given."
     sys.exit()
 
+#get the values from the second to the end
 for num in sys.argv[1:]:
     sum +=float(num)
 
