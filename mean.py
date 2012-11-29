@@ -2,8 +2,10 @@
 
 import sys
 
+#define the variables to store the sum
 sum = 0
 
+#check the files
 if len(sys, argv) == 1:
     print "Error: no arguments given."
     sys.exit()
